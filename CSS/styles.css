@@ -126,3 +126,30 @@
       }
       
       
+.flexbox-.container {
+        display: flex;
+      }
+      
+    .flexbox-.item {
+        width: 200px; /* A fixed width as the default */
+        margin: 10px;
+        border: 3xp solid #333;
+        background-color: #dfdfdf; 
+    }
+    
+    .flexbox-.item-1 {
+        min-height: 100px; 
+    }
+    
+    .flexbox-.item-2 {
+        min-height: 200px;
+    }
+    
+    .flexbox-.item-3 {
+        min-height: 300px;
+    }
+.test{
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+}
