@@ -1,0 +1,35 @@
+
+ 
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: papayawhip;
+    border: 2px solid black;
+    width:20%;
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #922121;
+    justify-content: end;
+    width: 40%;
+    border: 2px solid black;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: #25e46e;
+    color:#fff;
+    margin: 10px;
+
+
+} 
+
+
