@@ -1,27 +1,101 @@
 
 <html lang="en-US">
+
+    <link rel="stylesheet" href="styles.css">
+
 <head>
-<meta charset="utf-8">
+
+    <meta charset="utf-8">
+
 <title>Katja Stadel Kunstwerk</title>
-</head>
-<link rel="stylesheet" href="styles.css">
+
+
 <style>
-    body {background-color: powderblue;}
+
+body {
+  font-size: 20px;
+}
+
+    body {
+  background-image: url("https://i.pinimg.com/originals/b9/ca/52/b9ca52d76a50a55ea5b4305198c6f59b.gif");
+  background-color: #cccccc;
+  background-size: 1442px 852px;
+}
     h1   {color: rgb(97, 21, 29);}
     p    {color: rgb(201, 101, 101);}
-    </style>
+    
+
+    .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+
+<body style="text-align:center;">
+
+</style>
+</head>
 <body>
+
 <!-- I DO NOT APPEAR IN THE CODE -->
 <h1 style="background-color:rgb(201, 101, 101);">Katja Stadel Kunstwerk</h1>
-<p style="color:dodgerBlue;" class="editor-note"><strong>Katja Stadel</strong> is a Hamburg based, indipendent artist. She produces</p> 
-<ul style="color:dodgerBlue;">
+<p style="color:rgb(240, 255, 30);" class="editor-note"><strong>Katja Stadel</strong> is a Hamburg based, independent artist. She produces</p> 
+<ul style="color:rgb(240, 255, 30);">
 <li>music</li>
 <li>and sculpture</li> 
 <li>although painting on canvass</li> 
 </ul>
-<p style="color:dodgerBlue;">is her primary creative medium.</p>
-<p>Please browse the following <a href="https://wallup.net/digital-art-abstract-7/">works</a></p>
-<img src="" alt="My test image">
+<p style="color:rgb(240, 255, 30);">is her primary creative medium.</p>
+<p>Please browse the following <a href="https://static.wikia.nocookie.net/twinpeaks/images/b/b3/Ep1-03_Cooper_Zwerg_und_Laura_im_Roten_Raum.jpg/revision/latest?cb=20190114170935&path-prefix=de"><div class="tooltip">works
+    <span class="tooltiptext">&#128165;</span>
+  </div>
+
+  
+  <script>
+    // When the user clicks on <div>, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+    </script></p>
+<a href="file:///Users/Robert/Code/Project_Alpha/index2.html">page2</a>
+
+<img src="" alt="I am not a link. I really shouldnt be here.">
 
 </body>
+
 </html>
