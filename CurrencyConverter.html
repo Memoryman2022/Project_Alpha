@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Euros to British Pounds Currency Converter</title>
+    </head>
+    <link rel="stylesheet" herf="style.css"
+
+<body>
+
+<h2>Currency Converter</h2>
+<p>Convert Euros to GBP</p>
+
+<p>
+  <label>Euros</label>
+  <input id="inputFeet" type="number" placeholder="euros" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>Pounds: <span id="outputMeters"></span></p>
+
+<script>
+function LengthConverter(valNum) {
+  document.getElementById("outputMeters").innerHTML=valNum/1.19;
+}
+</script>
+</body>
+</html>
