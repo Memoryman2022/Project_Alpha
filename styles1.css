@@ -1,154 +1,166 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 * {
+  box-sizing: border-box;
 
-box-sizing: border-box;
-
-padding: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'poppins', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: rgb(252, 213, 165);
-    background: #0c1b36;
+body {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(252, 213, 165);
+  background: #0c1b36;
 }
 
-.propic{
+.propic {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-img {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    margin-left: 20px;
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-left: 20px;
 }
-
-
 
 h1,
 h2 {
-    text-align: left;
-    margin-bottom: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.catarea {
+  background-color: gray;
+  min-width: flex;
 }
 
 ul {
-    list-style-type: none;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 30px;
+  list-style-type: none;
 }
 
 .navbar {
-    background: #0a1831;
-    color: rgb(255, 52, 52);
-    height: 65px;
+  background: #0a1831;
+  color: rgb(255, 52, 52);
+  height: 65px;
 }
 
 .navbar .logo {
-    font-size: x-large;
-    font-weight: bold;
-
+  font-size: x-large;
+  font-weight: bold;
 }
 
 .navbar a {
-    text-align: end;
-    color: rgb(247, 208, 162);
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
+  text-align: end;
+  color: rgb(247, 208, 162);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .navbar a:hover {
-    color: rgb(110, 110, 231);
-
+  color: rgb(110, 110, 231);
 }
 
-.navbar .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    padding: 5px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 5px;
 }
 
 .navbar ul {
-    display: flex;
+  display: flex;
 }
 
 .navbar ul li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .header {
-    background-color: #101f3a;
-    color: rgb(250, 210, 161);
-    min-height: 400px;
+  background-color: #101f3a;
+  color: rgb(250, 210, 161);
+  min-height: 400px;
 }
 
-.header h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
 }
 
-.header p {
-    text-align: left;
-    padding: 15px;
-    max-width: 500px;
+p {
+  text-align: left;
+  padding: 15px;
+  max-width: 500px;
 }
 
 .header img {
-    max-width: 500px;
+  max-width: 50%;
+  min-height: 50%;
 }
 
-.header .container {
-    display: flex;
-    align-items: left;
-    justify-content: space-evenly;
-}
-
-.boxes .container {
-    display: flex;
-    justify-content: space-between;
+.boxes {
+  max-width: 200px;
+  max-height: 200px;
+  justify-items: flex-start;
+  justify-content: space-between;
 }
 
 .box {
-    flex: 1;
-    background: #0a1831;
-    color: bisque;
-    border-radius: 10px;
-    margin: 20px 10px;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
-    padding: 15px 20px;
+  flex: 1;
+  background: #0a1831;
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
 }
 
 .box i {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
-.header .container  {
-            flex-direction: column;
-            justify-content: flex-start;
-            padding-top: 20px;
-            text-align: left;
+.header {
+  flex-direction: column;
+  padding: 20px;
+  text-align: left;
 }
 
-.boxes .container {
-    display: block;
-    text-align: center;
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.words-container {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  height: 50%;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.words-cat {
+  background-color: rgb(139, 11, 33);
+  width: 100%;
+  border: 2px aqua solid;
+}
+
+.cat {
+  max-width: 50%;
+}
+
+.kitten-container {
 }
 
 .footer {
-
-    text-align: end;
+  text-align: end;
 }
